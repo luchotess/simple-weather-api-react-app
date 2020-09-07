@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const buildUrl = (query, API_KEY) => `http://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${API_KEY}`;
+const buildUrl = (query, API_KEY) => `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${API_KEY}`;
 
 function App() {
     const classes = useStyles();
